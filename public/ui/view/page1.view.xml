@@ -1,0 +1,8 @@
+<mvc:View
+   controllerName="com.bianix.ui.controller.page1"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Button
+      text="Say Hello"
+      press="onShowHello"/>
+</mvc:View>
