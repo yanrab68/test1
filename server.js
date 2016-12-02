@@ -9,6 +9,7 @@ var requireAuth = function(req, res, next){
 
 };
 
+// Add authentication
 app.all('*', requireAuth);
 
 app.get('/', function (req, res) {
